@@ -1,0 +1,22 @@
+{
+    "x_dim" : [3, 84, 84],
+    "hid_dim" : 64,
+    "z_dim" : 64,
+    "encoder" : "convnet",
+
+    "bigProto" : 1,
+
+    "lr": 1e-3,
+    "lr_proto": 10,
+
+    "train_way": 20,
+    "train_shot": 5,
+    "train_query": 15,
+    "train_episodes": 100,
+    
+    "test_way": 5,
+    "test_shot": 5,
+    "test_query": 15,
+    "test_episodes": 100
+
+}
